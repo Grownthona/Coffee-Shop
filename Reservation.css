@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Bagnard';
+    src: url(./Fonts/BagnardSans.otf)format('truetype');
+    font-weight: normal;
+}
+.Reservartion h1{
+    font-size: 90px;
+    font-weight: lighter;
+    font-family: 'Italiana', serif;
+    transform: translate(0px, 220px);
+}
+
+.Reservartion p{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Caudex', serif;
+    color: bisque;
+    transform: translate(0px, 220px);
+}
+
+.Reservartion{
+    background: url('./Images/reservation02.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 90vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+    .Reservartion h1{
+        font-size: 45px;
+        transform: translate(0px, 160px);
+    }
+    .Reservartion p{
+        transform: translate(0px, 170px);
+    }
+    .Reservartion{
+       height: 60vh;
+    }
+    }
+
+    .reservation-form .heading{
+       margin-left: 5%;
+    }
+    
+    .reservation-form{
+        margin-bottom: 100px;
+    }
+    .reservation-form-box-1{
+       
+        width: 700px;
+    }
+    .reservation-form-box-1 h1{
+       
+        font-weight: lighter;
+        font-family: 'Italiana', serif;
+        font-size: 40px;
+        margin-top: 120px;
+        margin-left: 10%;
+        font-weight: normal;
+        margin-bottom: 4rem;
+    }
+
+    .formclass{
+        width: 600px;
+        border: 3px solid black;
+        transform: translate(110px, 0px);
+    }
+    .formcontainer{
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box-2{
+        margin-top: -30px;
+        width: 430px;
+        height: 500px;
+        padding-left: 0;
+        background-color: #000000;
+    }
+    .reservation-form-box-1 p{
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #525252;
+        line-height: 2;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3rem;
+    }
+
+    .reservation-input{
+        width: 500px;  
+    }
+    
+    
+    label{
+        font-weight: lighter;
+    font-family: 'Italiana', serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    input[type=text], select{
+        width: 100%;
+        padding: 17px 17px;
+        margin: 8px 0;
+        margin-bottom: 20px;
+        display: inline-block;
+        border: 1px solid rgb(223, 223, 223);
+        box-sizing: border-box;
+      }
+
+      
+    input[type=date]{
+        width: 100%;
+        padding: 17px 17px;
+        margin: 8px 0;
+        margin-bottom: 20px;
+        display: inline-block;
+        border: 1px solid rgb(223, 223, 223);
+        box-sizing: border-box;
+      }
+
+      input[type=time]{
+        width: 100%;
+        padding: 17px 17px;
+        margin: 8px 0;
+        margin-bottom: 20px;
+        display: inline-block;
+        border: 1px solid rgb(223, 223, 223);
+        box-sizing: border-box;
+      }
+
+      ::placeholder{
+          color: #858585;
+          font-size: 16px;
+          font-family: 'Jost', sans-serif;
+      }
+
+      #star{
+          color: red;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: #000000;
+        color: white;
+        padding: 17px 17px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        font-family: 'Jost', sans-serif;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #303030;
+      }
+      
+      @media only screen and (max-width: 1123px){
+        .reservation-form-box-1 h1{
+            font-size: 24px;
+            margin-top: 80px;
+            margin-left: 10%;
+            margin-right: 25%;
+        }
+
+        .reservation-form-box-1 p{
+            font-size: 12px;
+        }
+          .reservation-form-box-1{
+              width: 100%;
+        }
+
+        .reservation-input{
+            width: 100%;
+        }
+
+        .formcontainer{
+            
+            padding-left: 14%;
+            padding-right: 14%;
+        }
+
+        .box-2{
+           margin-left: 25%;
+           margin-right: 25%;
+           margin-top: 0px;
+        }
+    
+    }
+
+    @media only screen and (max-width: 600px){
+        .reservation-form-box-1 h1{
+            font-size: 24px;
+            margin-top: 80px;
+            margin-left: 10%;
+            margin-right: 25%;
+        }
+
+        .reservation-form-box-1 p{
+            font-size: 12px;
+        }
+          .reservation-form-box-1{
+              width: 100%;
+        }
+
+        .reservation-input{
+            width: 100%;
+        }
+
+        .formcontainer{
+            
+            padding-left: 14%;
+            
+        }
+
+        .box-2{
+           margin-left: 5%;
+           margin-right: 5%;
+           margin-top: 0px;
+        }
+        
+   
+    
+    }
+
+    
+
+    @media only screen and (max-width: 420px){
+        .reservation-form-box-1 h1{
+            font-size: 24px;
+            margin-top: 80px;
+            margin-left: 10%;
+            margin-right: 25%;
+        }
+
+        .reservation-form-box-1 p{
+            font-size: 13px;
+        }
+
+        input[type=text], select{
+            width: 100%;
+           
+          }
+    
+        .reservation-input{
+            width: 100%;
+        }
+
+        .formcontainer{
+           
+            padding: 0px 30px 0px 30px;
+            
+        }
+
+        .box-2{
+            margin: 0;
+         }
+
+    }
+
+
+    .box-2 h3{
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+        font-family: 'Jost', sans-serif;
+        line-height: 29px;
+        padding: 50px 40px 37px 40px;
+        position: relative;
+        margin-bottom: 0;
+        -webkit-border-radius: 3px 3px 0 0;
+        -khtml-border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        -ms-border-radius: 3px 3px 0 0;
+        -o-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+        text-align: center;
+    }
+
+    .box-2 > h3:before {
+        content: "";
+        height: 15px;
+        width: 90%;
+        left: 20px;
+        right: 20px;
+        background-image: url(../images/ft-reservation-line.png);
+        position: absolute;
+        background-position: center;
+        bottom: 0;
+    }
+
+    .ft-reservation-holder {
+        padding: 17px 40px 40px;
+        text-align: center;
+        color: white;
+    }
+
+    .ft-reservation-holder ul {
+        margin-bottom: 40px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .ft-reservation-holder ul li {
+        text-align: left;
+        border-bottom: 1px dashed #49433f;
+        padding: 8px 0;
+        margin: 30px 0px 20px 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ft-reservation-holder ul li span {
+        float: right;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ft-reservation-holder .btn-find-table input[type=submit]{
+        background-color: transparent;
+        width: 100%;
+        display: block;
+        color: #ffffff;
+        background: #23531a;
+        border: 1px solid #0d2409;
+        padding: 12px 20px;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .ft-reservation-holder .btn-find-table input[type=submit]:hover{
+        width: 100%;
+        display: block;
+        color: #ffffff;
+        background: #197c09;
+        border: 1px solid #29461d;
+        padding: 12px 20px;
+        font-family: 'Jost', sans-serif;
+    }
+
+    @media only screen and (max-width: 280px){
+        .ft-reservation-holder ul li span {
+            font-size: 12px;
+            padding: 0px 0px 5px 0px;
+        }
+        .ft-reservation-holder ul li {
+            font-size: 12px;
+            padding: 0px 0px 5px 0px;
+        }
+    }
+
+    
+ 

@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Bagnard';
+    src: url(./Fonts/BagnardSans.otf)format('truetype');
+    font-weight: normal;
+}
+
+p{
+    overflow: break-word;
+}
+
+.Detail{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Detail-container{
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-1{
+    width: 500px;
+}
+.box-2{
+    width: 500px;
+}
+
+.img-boxx{
+    width: 400px;
+}
+
+.img-boxx img{
+    width: 100%;
+}
+
+.icontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items: flex-start;
+}
+
+.box-2{
+    width: 500px;
+    padding-left: 7%;
+}
+
+
+.box-2 h1{
+    font-size: 40px;
+    font-family: 'Italiana', serif;
+    margin-bottom: 1rem;
+}
+
+#cat{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(65, 65, 65);
+    text-align: left;
+    line-height: 2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#prices{
+    color: rgb(212, 154, 29);
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+#description{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(65, 65, 65);
+    width: 500px;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+input[type=submit] {
+   
+    background: #000000;
+    color: azure;
+    cursor: pointer;
+  }
+
+  input[type=text] {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+  }
+.box-1i{
+
+    border: 1px solid gray;
+    text-align: center;
+width: 35%;
+   height: 40px;
+   
+}
+.box-2i{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 5px 5px;
+  width: 35%;
+  margin-right: 50px;
+  height: 40px;
+}
+
+#plus{
+    cursor: pointer;
+}
+#minus{
+    cursor: pointer;
+}
+@media screen and (max-width: 578px) {
+    .box-2 h1{
+        font-size: 25px;
+    }
+
+    .box-2{
+        padding: 0;
+    }
+}
+
+.half-paragrapgh p{
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 2;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(37, 37, 37);
+
+}
+
+.related h1{
+    margin-top: 4rem;
+    font-family: 'Italiana', serif;
+    margin-bottom: 1rem;
+    font-size: 35px;
+    text-align: center;
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+.box{
+    width: 250px;
+    text-align: center;
+    margin: 15px;
+}
+
+#foodname{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 4rem;
+}
+.box p{
+    font-family: 'Questrial', sans-serif;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom:1rem;
+}
+
+.box .hide{
+    display: none;
+}
+
+.img-box{
+    width: 250px;
+    display: block;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#price{
+    font-weight: bold;
+    color: black;
+}
+
+#cart{
+    color: rgb(218, 139, 49);
+    padding: 5px 5px;
+    width: 100px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid rgb(218, 139, 49);
+}

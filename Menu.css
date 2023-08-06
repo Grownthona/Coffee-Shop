@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Bagnard';
+    src: url(./Fonts/BagnardSans.otf)format('truetype');
+    font-weight: normal;
+}
+
+p{
+    overflow: break-word;
+}
+
+.nav
+{
+    width:200px;
+    position: absolute;
+    left: -50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 60px;
+    z-index: 100000;
+}
+.nav ul
+{
+    position: relative;
+}
+.nav ul h2
+{
+    margin-bottom: 2rem;
+}
+.nav ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+.nav ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(197, 115, 38);
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.menu-header{
+    background: url('./Images/last.jpg');
+    width: 100%;
+    height: 98vh;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-header h1{
+    color: #fff;
+    text-align: center;
+    transform: translateY(300px);
+    font-size: 85px;
+    font-weight: lighter;
+    font-family: 'Italiana', serif;
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-left: 10%;
+}
+.box{
+    width: 230px;
+    text-align: center;
+    margin: 15px;
+}
+.menu .menu-head h1{
+    font-size: 55px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(218, 139, 49);
+    margin-top: 6rem;
+}
+
+.menu .menu-head h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.menu-head{
+    max-width: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.menu .menu-head p{
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Questrial', sans-serif;
+    line-height: 1.8;
+    margin-top: 2rem;
+    color: gray;
+    margin-bottom: 4rem;
+}
+
+.box h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#foodname{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 4rem;
+}
+.box p{
+    font-family: 'Questrial', sans-serif;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom:1rem;
+}
+
+.box .hide{
+    display: none;
+}
+
+.img-box{
+    width: 250px;
+    display: block;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#price{
+    font-weight: bold;
+    color: black;
+}
+
+#cart{
+    color: rgb(218, 139, 49);
+    padding: 5px 5px;
+    width: 100px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid rgb(218, 139, 49);
+}
+
+.menuslink{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 60px;
+}
+
+.menuslink ul li{
+    list-style: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 1056px) {
+    .menu .menu-head h1{
+       font-size: 44px;
+    }
+    .menu .menu-head h2{
+        font-size: 24px;
+    }
+    .menu .menu-head{
+        margin: 20px;
+    }
+    .menu .menu-head p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .box p{
+        font-size: 15px;
+    }
+    .nav{
+        display: none;
+    }
+    .menu-container{
+        margin-left: 0%;
+    }
+
+    .nav{
+        left: 0;
+    }
+}

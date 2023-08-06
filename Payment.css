@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+div{
+    display: block;
+}
+.About-us-background{
+    background-image: url('./Images/aboutus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.About-us-background h1{
+    color: #fff;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    top: 51%;
+    left: 34%;
+    font-family: 'Italiana', serif;
+}
+
+.About-us-background p{
+    text-align: center;
+    transform: translateY(220px);
+    font-size: 48px;
+    font-weight: lighter;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(241, 181, 111);
+}
+
+@media screen and (max-width: 1056px) {
+    .About-us-background{
+        height: 60vh;
+    }
+    .About-us-background h1{
+       display: none;
+    }
+
+    .About-us-background p{
+    font-size: 40px;
+    }  
+}
+
+form{
+    margin: 15%;
+
+}
+
+input{
+    margin-bottom: 2rem;
+}
+
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

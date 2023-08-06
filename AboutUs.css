@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+div{
+    display: block;
+}
+
+.img-bx img{
+    margin-top: -98px;
+    width: 100%;
+}
+
+.About-us-background{
+    background-image: url('./Images/aboutus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.About-us-background h1{
+    color: #fff;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    top: 51%;
+    left: 37%;
+    font-family: 'Italiana', serif;
+}
+
+.About-us-background p{
+    text-align: center;
+    transform: translateY(220px);
+    font-size: 48px;
+    font-weight: lighter;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(241, 181, 111);
+}
+
+.blockss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.blockss::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    transform: translateX(-50%);
+    border-left: 2px dotted #555;
+}
+
+.timelinee{
+    margin-bottom: 5rem;
+    background: url('./Images/seed.png');
+    background-repeat: no-repeat;
+}
+ 
+
+#timelineh1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Italiana', serif;
+    color: #000;
+    margin-top: 3rem;
+}
+.blockss{
+    margin-top: 110px;
+}
+.box-1{
+    width: 600px;
+    padding-right: 60px;
+    padding-left: 25px;
+    margin-bottom: 3rem;
+}
+.box-1 h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:2rem;
+    color: black;
+}
+
+.box-1 p{
+    line-height: 2;
+    color: rgb(54, 54, 54);
+}
+
+.box-2 p{
+    line-height: 2;
+    color: rgb(54, 54, 54);
+}
+
+.box-2 h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:2rem;
+    color: black;
+}
+.box-2{
+    width: 600px;
+    padding-left: 60px;
+    padding-right: 25px;
+    /*margin-top: 200px;*/
+    margin-bottom: 3rem;
+}
+
+.box-1 img{
+    width: 90%;
+}
+
+.box-2 img{
+    width: 90%;
+}
+
+#thirdrdbox img{
+    width: 60%;
+    object-position: center;
+    margin-left: 100px;
+}
+
+#secondbox{
+    background-image: url('./Images/katlebg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.box-2 h3::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    left: -3px;
+    transform: translateX(-35%);
+    background: rgb(14, 14, 14);
+}
+
+.box-1 h3::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: -3%;
+    border-radius: 50%;
+    transform: translateX(-35%);
+    background: rgb(14, 14, 14);
+}
+
+/*
+#firstbox{
+    margin-top: 240px;
+    background-image: url('./Images/katlebg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#forthbox{
+    margin-top: -200px;
+}
+
+#blocks1{
+    margin-top: -130px;
+}
+
+#thirdrdbox{
+    margin-top:-190px;
+}
+/* responsive */
+
+@media screen and (max-width: 1056px) {
+    .About-us-background{
+        height: 60vh;
+    }
+    .About-us-background h1{
+       display: none;
+    }
+
+    .About-us-background p{
+    font-size: 40px;
+    }
+
+    .img-bx img{
+        margin-top: -60px;
+    }
+
+    #timelineh1{
+        font-size: 40px;
+    }
+    .blockss::before{
+        display: none;
+    }
+    .box-2{
+        margin-top: 0;
+    }
+    #thirdrdbox{
+        margin-top: 0px;
+    }
+    #firstbox{
+        margin-top: 0px;
+    }
+    #blocks1{margin-top: 0;}
+    #forthbox{margin-top: 0;};
+    .box-1 h3::after{
+        display: none;
+    }
+    .box-2 h3::before{
+        display: none;
+    }
+    
+}
