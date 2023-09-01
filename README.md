@@ -1,6 +1,6 @@
 # Craft Cafe
 
-Welcome to Craft Café, where your coffee cravings meet a cozy virtual haven. This website, meticulously crafted using PHP, HTML, and CSS, is designed to provide with an unparalleled coffee experience right from the comfort of the screen allowing customers to explore, filter, and purchase a variety of cafe goods right from the comfort of their homes.
+Welcome to Craft Café, where your coffee cravings meet a cozy virtual haven. This website, meticulously crafted using PHP, HTML, CSS and MySQL, is designed to provide with an unparalleled coffee experience right from the comfort of the screen allowing customers to explore, filter, and purchase a variety of cafe goods right from the comfort of their homes.
 
 [Live Link: Craft Cafe](https://coffeeshopcraft.000webhostapp.com/home.php)
 
